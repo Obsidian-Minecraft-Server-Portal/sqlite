@@ -1,8 +1,15 @@
 [package]
-name = "sqlite"
+name = "obsidian-sqlite"
 version = "0.1.0"
 edition = "2021"
+description = "A simple wrapper for sqlite"
+repository = "https://github.com/Obsidian-Minecraft-Server-Portal/sqlite.git"
 
 [dependencies]
 sqlite = "0.36.1"
 log = "0.4.22"
+anyhow = "1.0.95"
+
+[[example]]
+name="create_table"
+path = "examples/create_table.rs"

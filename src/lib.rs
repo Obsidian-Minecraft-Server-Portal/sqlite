@@ -5,6 +5,7 @@
 
 use log::error;
 use std::error::Error;
+use anyhow::Result;
 
 /// Establishes a connection to the app's SQLite database.
 ///
