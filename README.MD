@@ -14,10 +14,8 @@ This library is only intended to be added as a Git dependency. To add it to your
 
 ```toml
 [dependencies]
-obsidian-sqlite = { git = "https://github.com/your-repo/obsidian-sqlite" }
+obsidian-sqlite = { git = "https://github.com/Obsidian-Minecraft-Server-Portal/sqlite.git" }
 ```
-
-> Replace `https://github.com/your-repo/obsidian-sqlite` with the actual repository URL for this library.
 
 ## Usage
 
